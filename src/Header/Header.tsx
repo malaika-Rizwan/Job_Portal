@@ -1,4 +1,4 @@
-import { Indicator, Avatar } from "@mantine/core";
+import { Indicator } from "@mantine/core";
 import { useLocation } from "react-router-dom";
 import Navlinks from "./Navlinks";
 import ProfileMenu from "./ProfileMenu";

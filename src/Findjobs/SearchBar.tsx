@@ -1,6 +1,5 @@
 import MultiInput from "./MultiInputs";
 import { Slider } from "@mantine/core";
-import Findjobs from "../Pages/Findjobs";
 
 const SearchBar = () => {
     const dropdownData = [

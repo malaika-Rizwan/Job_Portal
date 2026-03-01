@@ -1,6 +1,5 @@
 // Card.tsx
 import { Button, Divider } from "@mantine/core";
-import { Link } from "react-router-dom";
 import { IconCalendarMonth } from "@tabler/icons-react";
 
 interface CardProps {

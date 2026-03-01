@@ -1,5 +1,4 @@
 import { Avatar, Tabs } from "@mantine/core";
-import { IconPhoto, IconMessageCircle, IconSettings } from "@tabler/icons-react";
 import AboutComp from "./AboutComp";
 import CompanyJobs from "./CompanyJobs";
 import CompanyEmployees from "./CompanyEmployees"; // make sure this exists

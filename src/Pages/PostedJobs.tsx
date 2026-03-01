@@ -1,11 +1,8 @@
 import { Divider } from "@mantine/core";
-import { useNavigate } from "react-router-dom";
 import PostedJob from "../PostedJob/PostedJob";   // Tabs + Job Cards
 import PostedJobDesc from "../PostedJob/PostedJobDesc";
 
 const PostedJobPage = () => {
-    const navigate = useNavigate();
-
     return (
         <div className="min-h-[90vh] bg-mine-shaft-950 font-['Poppins'] p-4">
             {/* Top Divider */}

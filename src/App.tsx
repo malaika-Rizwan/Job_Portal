@@ -1,8 +1,6 @@
-import React from "react";
 import { createTheme, MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
 import '@mantine/carousel/styles.css';
-import { DateInput } from "@mantine/dates";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HomePage } from "./Pages/HomePage";
 import Findjobs from "./Pages/Findjobs";
