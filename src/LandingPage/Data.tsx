@@ -42,9 +42,9 @@ export interface WorkStep {
 }
 
 export const work: WorkStep[] = [
-    { name: "Build Your Resume", desc: "Create a standout resume with your skills." },
-    { name: "Apply for Job", desc: "Find and apply for jobs that match your skills." },
-    { name: "Get Hired", desc: "Connect with employers and start your new job." },
+    { name: "Build your resume", desc: "Create a standout resume with your skills." },
+    { name: "Apply for job", desc: "Find and apply for jobs that match your skills." },
+    { name: "Get hired", desc: "Connect with employers and start your new job." },
 ];
 
 // Testimonials
