@@ -35,7 +35,7 @@ const Card: React.FC<CardProps> = (props) => {
                     <div className="p-2 rounded-md bg-mine-shaft-800">
                         <img
                             className="h-7"
-                            src={`/icons/${props.company}.png`}
+                            src={`/Icons/${props.company}.png`}
                             alt={`${props.company} logo`}
                         />
                     </div>

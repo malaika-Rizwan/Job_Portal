@@ -34,7 +34,7 @@ const JobCategory: React.FC = () => {
                     <Carousel.Slide key={index}>
                         <div className="flex flex-col gap-2 border border-bright-sun-400 items-center justify-center w-64 text-center bg-mine-shaft-900 rounded-xl shadow-md p-5 my-5 transition duration-300 ease-in-out hover:shadow-[0_0_15px_4px_#FFD700] hover:scale-105 cursor-pointer">
                             <div className="p-3 bg-bright-sun-400 rounded-full mb-3">
-                                <img className="h-10 w-10" src={`/category/${category.name}.png`} alt={category.name} />
+                                <img className="h-10 w-10" src={`/Category/${category.name}.png`} alt={category.name} />
                             </div>
                             <div className="text-mine-shaft-200 text-xl font-semibold mb-2">{category.name}</div>
                             <div className="text-mine-shaft-300 text-sm mb-2">{category.desc}</div>

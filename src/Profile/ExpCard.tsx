@@ -53,7 +53,7 @@ const ExpCard = ({
                     <div className="p-2 rounded-md bg-muted border border-bright-sun-400">
                         <img
                             className="h-9 w-9 object-contain"
-                            src={`/icons/${company.toLowerCase()}.png`}
+                            src={`/Icons/${company}.png`}
                             alt={`${company} Logo`}
                             onError={(e) => {
                                 const target = e.target as HTMLImageElement;

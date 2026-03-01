@@ -27,7 +27,7 @@ function ProfileMenu() {
             <Menu.Target>
                 <div className="flex cursor-pointer items-center gap-3">
                     <div>Malaika</div>
-                    <Avatar src="avatar2.png" alt="it's me" />
+                    <Avatar src="/avatar2.png" alt="it's me" />
                 </div>
             </Menu.Target>
 

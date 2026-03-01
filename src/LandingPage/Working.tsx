@@ -18,12 +18,12 @@ const Working = () => {
             <div className="flex px-16 justify-between items-center">
                 {/* Left Image */}
                 <div className="w-[30rem]">
-                    <img src="/working/Girl.png" alt="girl" />
+                    <img src="/Working/Girl.png" alt="girl" />
                 </div>
 
                 {/* Floating Profile Card */}
                 <div className="absolute top-[10rem] left-[25rem] w-40 flex flex-col items-center gap-2 border border-bright-sun-400 rounded-xl py-3 px-2 backdrop-blur-md shadow-lg bg-white/10">
-                    <Avatar className="!h-16 !w-16" src="avatar2.png" alt="it's me" />
+                    <Avatar className="!h-16 !w-16" src="/avatar2.png" alt="it's me" />
                     <div className="text-sm font-semibold text-mine-shaft-200 text-center">
                         Complete your profile
                     </div>
@@ -39,7 +39,7 @@ const Working = () => {
                             <div className="p-2 bg-bright-sun-300 rounded-full">
                                 <img
                                     className="h-12 w-12"
-                                    src={`/working/${item.name}.png`}
+                                    src={`/Working/${item.name}.png`}
                                     alt={item.name}
                                 />
                             </div>

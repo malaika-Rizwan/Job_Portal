@@ -27,9 +27,9 @@ const Company = () => {
 
                     {/* Avatar Group */}
                     <Avatar.Group spacing="sm">
-                        <Avatar src="avatar2.png" radius="xl" />
-                        <Avatar src="avatar3.png" radius="xl" />
-                        <Avatar src="avatar4.png" radius="xl" />
+                        <Avatar src="/avatar2.png" radius="xl" />
+                        <Avatar src="/avatar3.png" radius="xl" />
+                        <Avatar src="/avatar4.png" radius="xl" />
                         <Avatar radius="xl">+10k</Avatar>
                     </Avatar.Group>
                 </div>

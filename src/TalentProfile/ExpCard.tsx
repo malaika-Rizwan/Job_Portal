@@ -9,7 +9,7 @@ const ExpCard = (props: any) => {
                         <div className="p-2 rounded-md bg-mine-shaft-800">
                             <img
                                 className="h-9"
-                                src={`/icons/${props.company}.png`}
+                                src={`/Icons/${props.company}.png`}
                                 alt={`${props.company} Logo`}
                             />
                         </div>

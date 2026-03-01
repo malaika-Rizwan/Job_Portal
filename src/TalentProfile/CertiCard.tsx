@@ -8,7 +8,7 @@ const CertiCard = (props: any) => {
                     <div className="p-2 rounded-md bg-mine-shaft-800">
                         <img
                             className="h-9"
-                            src={`/icons/${props.issuer}.png`}
+                            src={`/Icons/${props.issuer}.png`}
                             alt={`${props.issuer} Logo`}
                         />
                     </div>

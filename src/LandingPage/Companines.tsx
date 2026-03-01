@@ -18,7 +18,7 @@ const Companies= () => {
                     >
                         <img
                             className="h-14"
-                            src={`/companies/${company}.png`}
+                            src={`/Companies/${company}.png`}
                             alt={`${company} logo`}
                         />
                     </div>

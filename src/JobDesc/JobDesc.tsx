@@ -10,7 +10,7 @@ const JobDesc: React.FC<{ edit?: boolean }> = ({ edit }) => {
                 {/* Left: Logo + Job info */}
                 <div className="flex gap-3 items-center">
                     <div className="p-2 rounded-xl bg-mine-shaft-800">
-                        <img className="h-14" src={`/icons/Google.png`} alt="google logo" />
+                        <img className="h-14" src={`/Icons/Google.png`} alt="google logo" />
                     </div>
                     <div>
                         <div className="font-semibold text-mine-shaft-100 text-lg">
@@ -114,7 +114,7 @@ const JobDesc: React.FC<{ edit?: boolean }> = ({ edit }) => {
                 <div className="flex justify-between items-center">
                     <div className="flex gap-3 items-center">
                         <div className="p-2 rounded-xl bg-mine-shaft-800">
-                            <img className="h-8" src={`/icons/Google.png`} alt="google logo" />
+                            <img className="h-8" src={`/Icons/Google.png`} alt="google logo" />
                         </div>
                         <div>
                             <div className="font-semibold text-mine-shaft-100 text-lg">Google</div>

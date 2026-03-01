@@ -19,7 +19,7 @@ const Testimonial = () => {
                     >
                         {/* Avatar + Name */}
                         <div className="flex items-center gap-3">
-                            <Avatar src="avatar2.png" alt={data.name} className="!h-14 !w-14" />
+                            <Avatar src="/avatar2.png" alt={data.name} className="!h-14 !w-14" />
                             <div className="text-lg text-mine-shaft-200 font-semibold">{data.name}</div>
                         </div>
 

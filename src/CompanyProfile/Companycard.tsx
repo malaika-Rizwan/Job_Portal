@@ -14,7 +14,7 @@ const CompanyCard = ({ name, employees }: CompanyCardProps) => {
                 <div className="p-2 rounded-md bg-mine-shaft-800">
                     <img
                         className="h-7 w-7 object-contain"
-                        src={`/icons/${name}.png`}
+                        src={`/Icons/${name}.png`}
                         alt={name}
                     />
                 </div>
